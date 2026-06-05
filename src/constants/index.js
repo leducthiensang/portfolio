@@ -212,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/project1/step3.png",
+    image: "/project1/cover.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -254,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/project3/LeDucThienSang-25020778-Bai3-images-0.jpg",
+    image: "/project3/cover.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -275,7 +275,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/project4/trello_kanban.png",
+    image: "/project4/cover.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -296,7 +296,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/project5/dalle_cover.png",
+    image: "/project5/cover.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -317,7 +317,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/project6/infographic.png",
+    image: "/project6/cover.png",
     source_code_link: "https://github.com/",
   },
 ];
