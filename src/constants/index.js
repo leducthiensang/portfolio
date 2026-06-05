@@ -19,9 +19,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -215,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "/project1/step3.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -236,7 +233,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "/project2/cover.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -320,7 +317,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "/project6/infographic.png",
     source_code_link: "https://github.com/",
   },
 ];
