@@ -214,6 +214,7 @@ const projects = [
     ],
     image: "/project1/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1_GC7O72JuYk-_zrmSvsTnIzh8bOuFbga/view?usp=sharing",
   },
   {
     name: "Bài 2: Tìm kiếm và đánh giá thông tin học thuật",
@@ -235,6 +236,7 @@ const projects = [
     ],
     image: "/project2/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1b_15tcRgejTH6d96TNeyqGsJoGQp8NI5/view?usp=sharing",
   },
   {
     name: "Bài 3: Viết Prompt hiệu quả cho các tác vụ học tập",
@@ -256,6 +258,7 @@ const projects = [
     ],
     image: "/project3/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1BS40ZiYwLTgGSf_CrT3Zdu-MPJRQdQJp/view?usp=sharing",
   },
   {
     name: "Bài 4: Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm",
@@ -277,6 +280,7 @@ const projects = [
     ],
     image: "/project4/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1de62VNCZu8WTO_ea3lOabqdgVC_5czX4/view?usp=sharing",
   },
   {
     name: "Bài 5: Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung",
@@ -298,6 +302,7 @@ const projects = [
     ],
     image: "/project5/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1G1mbm7KNbUzJrQ1qJOplKuuvrSOisXUq/view?usp=sharing",
   },
   {
     name: "Bài 6: Sử dụng AI có trách nhiệm trong học tập và nghiên cứu",
@@ -319,6 +324,7 @@ const projects = [
     ],
     image: "/project6/cover.png",
     source_code_link: "https://github.com/",
+    report_link: "https://drive.google.com/file/d/1DJ2k6hdRiywqMoU-aRufD8-nIDmu0EEv/view?usp=sharing",
   },
 ];
 

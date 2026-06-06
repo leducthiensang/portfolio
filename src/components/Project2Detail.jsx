@@ -214,6 +214,14 @@ const Project2Detail = () => {
             <p className="text-secondary text-[16px] mt-2 max-w-2xl">
               Môn học: Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo
             </p>
+            <a
+              href="https://drive.google.com/file/d/1b_15tcRgejTH6d96TNeyqGsJoGQp8NI5/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 bg-[#915EFF] hover:bg-[#804dee] text-white font-semibold text-[14px] px-6 py-2.5 rounded-xl transition-colors duration-200 shadow-md"
+            >
+              Xem file báo cáo
+            </a>
           </div>
 
           {/* Student Card Info Block */}

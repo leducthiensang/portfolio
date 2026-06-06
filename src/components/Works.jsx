@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  report_link,
 }) => {
   return (
     <motion.div
@@ -43,12 +44,24 @@ const ProjectCard = ({
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
             {index <= 5 && (
-              <Link
-                to={`/project/${index + 1}`}
-                className="inline-block mt-4 bg-white hover:bg-gray-200 text-black font-semibold text-[13px] px-4 py-2 rounded-xl transition-colors duration-200 shadow-md"
-              >
-                Xem chi tiết bài làm
-              </Link>
+              <div className="flex flex-wrap gap-3 mt-4">
+                <Link
+                  to={`/project/${index + 1}`}
+                  className="inline-block bg-white hover:bg-gray-200 text-black font-semibold text-[13px] px-4 py-2 rounded-xl transition-colors duration-200 shadow-md"
+                >
+                  Xem chi tiết bài làm
+                </Link>
+                {report_link && (
+                  <a
+                    href={report_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#915EFF] hover:bg-[#804dee] text-white font-semibold text-[13px] px-4 py-2 rounded-xl transition-colors duration-200 shadow-md"
+                  >
+                    Xem file báo cáo
+                  </a>
+                )}
+              </div>
             )}
           </div>
         </div>
