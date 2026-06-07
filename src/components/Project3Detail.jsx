@@ -452,14 +452,6 @@ const Project3Detail = () => {
                 </p>
               </div>
 
-              <div className="mt-4 flex flex-col items-center w-full">
-                <span className="text-[12px] uppercase tracking-wider text-secondary font-bold self-start mb-2">Ảnh chụp màn hình thử nghiệm:</span>
-                <ReportImage
-                  src={testResults[selectedTask][selectedLevel].img}
-                  alt={`Thử nghiệm ${testResults[selectedTask].title} - ${selectedLevel === "basic" ? "Cơ bản" : selectedLevel === "improved" ? "Cải tiến" : "Nâng cao"}`}
-                  onClick={() => setActiveImage(testResults[selectedTask][selectedLevel].img)}
-                />
-              </div>
             </div>
 
             <h3 className="text-white font-semibold text-[18px] mt-8">
